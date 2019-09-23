@@ -1,25 +1,20 @@
 package HomeWork;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import HomeWork.fw.ApplicationManager;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
-import java.util.concurrent.TimeUnit;
 
 public class TestBase {
+    protected static ApplicationManager app = new ApplicationManager();
 
-    WebDriver driver;
-
-    @BeforeMethod
-    public void setUp(){
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+    @BeforeSuite
+    public  void setUp(){
+        app.init();
     }
 
-    @AfterMethod
-    public void tearDown(){
-        driver.quit();
+    @AfterSuite
+    public void tearDown() throws InterruptedException {
+        app.stop();
     }
-
 }

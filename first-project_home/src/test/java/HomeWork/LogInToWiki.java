@@ -1,26 +1,28 @@
 package HomeWork;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LogInToWiki extends TestBase {
-    @Test
-    public void logIn(){
-        driver.get("https://ru.wikipedia.org");
-
-        driver.findElement(By.id("pt-login")).click();
-
-        driver.findElement(By.id("wpName1")).click();
-        driver.findElement(By.id("wpName1")).clear();
-        driver.findElement(By.id("wpName1")).sendKeys("Ivan Ivanov");
-
-        driver.findElement(By.id("wpPassword1")).click();
-        driver.findElement(By.id("wpPassword1")).clear();
-        driver.findElement(By.id("wpPassword1")).sendKeys("123456789");
-
-        driver.findElement(By.id("wpLoginAttempt")).click();
-
-
-
+    @BeforeMethod
+    public void preconditions(){
+        if(!app.getSession().isElementPresent(By.id("pt-login"))){
+            app.getSession().openSite("https://en.wikipedia.org");
+        }
     }
+
+    @Test
+    public void loginTest() {
+        app.getSession().initLogin();
+        app.getSession().fillLoginForm("ghjhgjgjh@jhjhjhk.com", "123455678G");
+        app.getSession().confirmLogin();
+    }
+
+    @AfterMethod
+    public void postActions(){
+        app.getSession().openSite("https://en.wikipedia.org");
+    }
+
 }
