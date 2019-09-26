@@ -16,6 +16,26 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 
 }
-test{
-    useTestNG()
+task wikiLoginTest(type:Test){
+    useTestNG{
+        suites'src/test/resources/testng-login.xml'
+    }
+    if (project.hasProperty('browser')){
+        systemProperty 'browser',  "${browser}"
+    }
+}
+task SearchTest(type:Test){
+    useTestNG{
+        suites 'src/test/resources/testng-search.xml'
+    }
+    if (project.hasProperty('browser')){
+        systemProperty 'browser',  "${browser}"
+    }
+    test{
+        useTestNG()
+        if (project.hasProperty('browser')){
+            systemProperty 'browser',  "${browser}"
+        }
+    }
+
 }

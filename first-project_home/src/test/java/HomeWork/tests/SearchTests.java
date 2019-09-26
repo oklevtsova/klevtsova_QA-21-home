@@ -1,4 +1,4 @@
-package HomeWork;
+package HomeWork.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
