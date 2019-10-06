@@ -26,7 +26,7 @@ public class ApplicationManager {
         }else if(browser.equals(BrowserType.FIREFOX)){
             driver = new FirefoxDriver();
         }
-        
+
         //add default wait for WebElement
         driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         driver.manage().window().maximize();
@@ -37,7 +37,7 @@ public class ApplicationManager {
     }
 
     public void stop() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(1000);
         driver.quit();
     }
 
