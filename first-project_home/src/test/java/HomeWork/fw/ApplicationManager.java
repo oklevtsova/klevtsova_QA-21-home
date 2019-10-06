@@ -26,8 +26,7 @@ public class ApplicationManager {
         }else if(browser.equals(BrowserType.FIREFOX)){
             driver = new FirefoxDriver();
         }
-
-        driver = new ChromeDriver();
+        
         //add default wait for WebElement
         driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         driver.manage().window().maximize();
