@@ -11,12 +11,12 @@ import org.testng.annotations.BeforeSuite;
 public class TestBase {
     protected static ApplicationManager app = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
-    @BeforeClass
+    @BeforeSuite
     public  void setUp(){
         app.init();
     }
 
-    @AfterClass
+    @AfterSuite
     public void tearDown() throws InterruptedException {
         app.stop();
     }
