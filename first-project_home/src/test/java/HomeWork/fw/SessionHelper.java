@@ -23,6 +23,7 @@ public class SessionHelper extends HelperBase{
     public void initLogin() {
         waitForElementAndClick( By.id("pt-login"),20);
         click(By.id("pt-login"));
+        takescreenshot();
     }
 
     public void openSite(String url) {

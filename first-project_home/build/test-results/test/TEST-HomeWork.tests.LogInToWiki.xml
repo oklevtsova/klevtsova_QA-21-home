@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HomeWork.tests.LogInToWiki" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-07T12:20:31" hostname="LAPTOP-1IHGM6O5" time="3.478">
-  <properties/>
-  <testcase name="loginTest" classname="HomeWork.tests.LogInToWiki" time="3.478"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

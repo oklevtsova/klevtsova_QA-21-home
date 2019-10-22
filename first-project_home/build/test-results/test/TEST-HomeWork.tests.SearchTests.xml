@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="HomeWork.tests.SearchTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-07T12:20:35" hostname="LAPTOP-1IHGM6O5" time="3.614">
-  <properties/>
-  <testcase name="searchWikiTestQA" classname="HomeWork.tests.SearchTests" time="1.525"/>
-  <testcase name="searchWikiTestJava" classname="HomeWork.tests.SearchTests" time="2.086"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

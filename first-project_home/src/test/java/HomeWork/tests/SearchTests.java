@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SearchTests  extends TestBase {
+
     @Test(priority = 2)
     public void searchWikiTestJava() {
         app.getArticle().typeRequest("java");

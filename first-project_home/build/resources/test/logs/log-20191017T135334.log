@@ -1,0 +1,22 @@
+13:53:46.093 [main] INFO  HomeWork.tests.TestBase - start test loginTest with parameters[]
+13:53:46.101 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: pt-login
+13:53:46.124 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: pt-loginfound
+13:53:46.160 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: pt-login
+13:53:46.176 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: pt-loginfound
+13:53:47.098 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: pt-login
+13:53:47.126 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: pt-loginfound
+13:53:47.676 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: wpName1
+13:53:47.696 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: wpName1found
+13:53:47.790 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: wpName1
+13:53:47.818 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: wpName1found
+13:53:47.886 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: wpName1
+13:53:47.898 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: wpName1found
+13:53:47.974 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: wpPassword1
+13:53:47.986 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: wpPassword1found
+13:53:48.038 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: wpPassword1
+13:53:48.050 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: wpPassword1found
+13:53:48.102 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.id: wpPassword1
+13:53:48.114 [main] INFO  H.fw.ApplicationManager$MyListener - By.id: wpPassword1found
+13:53:48.162 [main] INFO  H.fw.ApplicationManager$MyListener - Start search element By.name: wploginattempt
+13:53:48.174 [main] INFO  H.fw.ApplicationManager$MyListener - By.name: wploginattemptfound
+13:53:50.217 [main] INFO  HomeWork.tests.TestBase - stop test loginTest

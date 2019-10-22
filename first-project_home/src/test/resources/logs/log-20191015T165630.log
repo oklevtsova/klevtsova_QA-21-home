@@ -1,0 +1,4 @@
+16:56:42.726 [main] INFO  HomeWork.tests.TestBase - start test searchWikiTestQA with parameters[]
+16:56:44.029 [main] INFO  HomeWork.tests.TestBase - stop test searchWikiTestQA
+16:56:44.033 [main] INFO  HomeWork.tests.TestBase - start test searchWikiTestJava with parameters[]
+16:56:46.251 [main] INFO  HomeWork.tests.TestBase - stop test searchWikiTestJava

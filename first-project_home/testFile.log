@@ -1,0 +1,10 @@
+ 11774 [main] INFO  HomeWork.tests.TestBase - start test loginTest
+15503 [main] INFO  HomeWork.tests.TestBase - stop test loginTest
+11665 [main] INFO  HomeWork.tests.TestBase - start test loginTest
+15735 [main] INFO  HomeWork.tests.TestBase - stop test loginTest
+12360 [main] INFO  HomeWork.tests.TestBase - start test loginTest
+16614 [main] INFO  HomeWork.tests.TestBase - stop test loginTest
+11440 [main] INFO  HomeWork.tests.TestBase - start test searchWikiTestQA
+12674 [main] INFO  HomeWork.tests.TestBase - stop test searchWikiTestQA
+12678 [main] INFO  HomeWork.tests.TestBase - start test searchWikiTestJava
+14167 [main] INFO  HomeWork.tests.TestBase - stop test searchWikiTestJava
